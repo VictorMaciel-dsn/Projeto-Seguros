@@ -1,6 +1,6 @@
 nav {
   margin: 8px 0px;
-  background-color: #ee802b;
+  background-color: white;
 }
 
 nav ul {
@@ -17,14 +17,14 @@ nav li {
 
 nav li a {
   display: block;
-  color: white;
+  color: #244174;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: #244174;
+  background-color: #86a4da;
 }
 
 .logoNavBar {
@@ -37,17 +37,17 @@ nav li a:hover {
 }
 
 *::-webkit-scrollbar {
-  width: 13px;
+  width: 7px;
 }
 
 *::-webkit-scrollbar-track {
-  background: #ee802b;
+  background: #244174;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #244174;
-  border-radius: 10px;
-  border: 3px solid #ee802b;
+  background-color: #ffffff;
+  border-radius: 7px;
+  
 }
 
 .wp-icon {
@@ -63,12 +63,22 @@ nav li a:hover {
   padding: 0px;
 }
 
-.main-container {
+.home{
+  max-width: 530px;
+  background: #244174;
+  margin-left: 43px;
+}
+
+.background-home{
+  background: #244174;
+}
+
+/* .main-container {
   background-color: #244174;
-  background: linear-gradient(to left, #ee802b, #244174);
+  background:  #244174;
   width: 100%;
   height: 100vh;
-}
+} */
 
 .circles-container {
   width: 100%;
@@ -169,7 +179,6 @@ nav li a:hover {
   animation-duration: 11s;
 }
 
-
 .title {
   width: 100%;
   position: absolute;
@@ -177,9 +186,9 @@ nav li a:hover {
 }
 
 h1 {
-  font-family: 'Times New Roman', Times, serif;
-  text-align: center;
-  color: rgb(2, 0, 0);
+  /* font-family: 'Times New Roman', Times, serif; */
+  text-align: left;
+  color: #ffffff;
   font-size: 50px;
 }
 
@@ -198,13 +207,10 @@ h1 {
 }
 
 .who-we-are {
-  background: linear-gradient(to left, #ee802b, #244174);
-  text-align: center;
+  background: #244174;
   padding: 20px;
   color: white;
   display: flex;
-  justify-content: center;
-
 }
 
 .card-tituloprincipal {
@@ -214,7 +220,7 @@ h1 {
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
   padding: 30px;
   margin: 20px;
-  width: 6000px;
+  width: 3000px;
   transition: all 0.3s ease-out;
   text-align: left;
   position: static;
@@ -249,7 +255,7 @@ h1 {
 }
 
 .insurance {
-  background: linear-gradient(to left, #ee802b, #244174);
+  background: #244174;
   text-align: center;
   padding: 30px;
   color: white;
@@ -279,7 +285,7 @@ h1 {
   height: 50px;
   border: none;
   outline: none;
-  color: #111;
+  color: #ffffff;
   font-weight: bold;
   background: #111;
   cursor: pointer;
@@ -290,7 +296,7 @@ h1 {
 
 .buttonCard:before{
   content: '';
-  background: linear-gradient(45deg, #ee802b, #244174);
+  background: linear-gradient(45deg, #244174, #00163b, #ffffff);
   position: absolute;
   top: -2px;
   left:-2px;
@@ -306,7 +312,7 @@ h1 {
 }
 
 .buttonCard:active {
-  color: #111
+  color: #ffffff
 }
 
 .buttonCard:active:after {
@@ -323,7 +329,7 @@ h1 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #ee802b;
+  background: #244174;
   left: 0;
   top: 0;
   border-radius: 10px;
@@ -360,30 +366,29 @@ article.card .infos {
   height: 350px;
   position: relative;
   padding: 14px 24px;
-  /* background: linear-gradient(to left, #244174, #ee802b); */
-  background: #ece1cc;
+  /* background: linear-gradient(to left, #244174, #86a4da); */
+  background: #3e3f3f;
   transition: all 0.5s;
 }
 
 article.card .infos .title {
   position: static;
   margin: 5px 0;
-  /* color: #ffffff; */
-  color: #111;
+  color: #ffffff;
   font-size: 1rem;
 }
 
 article.card .infos .txt {
   line-height: 2;
   font-size: 0.95rem;
-  color: #111;
+  color: #ffffff;
   opacity: 0;
   transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
 }
 
 .align-partners {
   color: white;
-  background: linear-gradient(to left, #ee802b, #244174);
+  background: #244174;
   text-align: center;
   padding: 50px;
 }
@@ -394,7 +399,7 @@ article.card .infos .txt {
 
 .contact {
   color: white;
-  background: linear-gradient(to left, #ee802b, #244174);
+  background:  #244174;
   text-align: center;
   padding: 50px;
 }
