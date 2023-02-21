@@ -11,19 +11,19 @@
 
 <body>
     <header>
-		<nav>
-			<ul>
-                <li><img src="./assets/images/logoEmpresa.png" alt="LogoEmpresa" class="logoNavBar"/></li>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Seguros</a></li>
-				<li><a href="#">Parceiros</a></li>
-				<li><a href="#">Contatos</a></li>
-			</ul>
-		</nav>
-	</header>
+        <nav>
+            <ul>
+                <li><img src="./assets/images/logoEmpresa.png" alt="LogoEmpresa" class="logoNavBar" /></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Seguros</a></li>
+                <li><a href="#">Parceiros</a></li>
+                <li><a href="#">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <section>
-        <div class="title">		
+        <div class="title">
             <h1>Bem-vindos à aFacil Seguros! Aqui você encontra o seguro ideal para sua situação!</h1>
         </div>
         <div class="main-container">
@@ -76,7 +76,11 @@
                         <p class="txt">
                             Assistência 24 horas, atendimento gratuito nos Centros Automotivos e serviços para a casa.
                         </p>
-                        <p class="details"><a href="./seguros/seguroauto/index.html" target="_self">Ver mais</a></p>
+                        <div class="cardButton">
+                            <button class="buttonCard" onclick={clickSeguroAuto()}>
+                                Ver mais
+                            </button>
+                        </div>
                     </div>
                 </article>
                 <article class="card">
@@ -88,7 +92,11 @@
                         <p class="txt">
                             O seguro que combina com seu estilo, com cobertura completa e assistência 24h.
                         </p>
-                        <p class="details"><a href="./seguros/seguromoto/index.html" target="_self">Ver mais</a></p>
+                        <div class="cardButton">
+                            <button class="buttonCard" onclick={clickSeguroMoto()}>
+                                Ver mais
+                            </button>
+                        </div>
                     </div>
                 </article>
                 <article class="card">
@@ -100,7 +108,11 @@
                         <p class="txt">
                             Viaje com segurança e tranquilidade
                         </p>
-                        <p class="details"><a href="./seguros/seguroviagem/index.html" target="_self">Ver mais</a></p>
+                        <div class="cardButton">
+                            <button class="buttonCard" onclick={clickSeguroViagem()}>
+                                Ver mais
+                            </button>
+                        </div>
                     </div>
                 </article>
                 <article class="card">
@@ -112,7 +124,11 @@
                         <p class="txt">
                             Benefícios em vida, contratos descomplicados e coberturas especialmente para você.
                         </p>
-                        <p class="details"><a href="./seguros/segurovida/index.html" target="_self">Ver mais</a></p>
+                        <div class="cardButton">
+                            <button class="buttonCard" onclick={clickSeguroVida()}>
+                                Ver mais
+                            </button>
+                        </div>
                     </div>
                 </article>
                 <article class="card">
@@ -124,7 +140,11 @@
                         <p class="txt">
                             Uma solução completa que oferece proteção e serviços para você se aventurar sem medo.
                         </p>
-                        <p class="details"><a href="./seguros/segurobike/index.html" target="_self">Ver mais</a></p>
+                        <div class="cardButton">
+                            <button class="buttonCard" onclick={clickSeguroBike()}>
+                                Ver mais
+                            </button>
+                        </div>
                     </div>
                 </article>
                 <article class="card">
@@ -136,8 +156,11 @@
                         <p class="txt">
                             Tudo que você precisa para proteção e assistência do seu lar.
                         </p>
-                        <p class="details"><a href="./seguros/seguroresidencia/index.html" target="_self">Ver mais</a>
-                        </p>
+                        <div class="cardButton">
+                            <button class="buttonCard" onclick={clickSeguroResidencia()}>
+                                Ver mais
+                            </button>
+                        </div>
                     </div>
                 </article>
                 <article class="card">
@@ -150,8 +173,11 @@
                         <p class="txt">
                             Você protegido contra os imprevistos da profissão.
                         </p>
-                        <p class="details"><a href="./seguros/seguroresponsabilidadevicil/index.html" target="_self">Ver
-                                mais</a></p>
+                        <div class="cardButton">
+                            <button class="buttonCard" onclick={clickSeguroResponsabilidadeCivil()}>
+                                Ver mais
+                            </button>
+                        </div>
                     </div>
                 </article>
                 <article class="card">
@@ -163,8 +189,11 @@
                         <p class="txt">
                             Proteja seu celular contra quebra acidental, roubo e até mesmo furto.
                         </p>
-                        <p class="details"><a href="./seguros/segurocelular/index.html" target="_self">Ver mais</a>
-                        </p>
+                        <div class="cardButton">
+                            <button class="buttonCard" onclick={clickSeguroCelular()}>
+                                Ver mais
+                            </button>
+                        </div>
                     </div>
                 </article>
                 <article class="card">
@@ -176,8 +205,11 @@
                         <p class="txt">
                             Proteja seu melhor amigo!
                         </p>
-                        <p class="details"><a href="./seguros/seguropet/index.html" target="_self">Ver mais</a>
-                        </p>
+                        <div class="cardButton">
+                            <button class="buttonCard" onclick={clickSeguroPet()}>
+                                Ver mais
+                            </button>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -215,6 +247,7 @@
     <a href="https://api.whatsapp.com/send?phone=5551983229357" target="_blank" rel="noopener">
         <img class="wp-icon" src="./assets/images/logoWpp.png" alt="Clique aqui para falar com a gente pelo Whatsapp!">
     </a>
+    <script type="text/javascript" src="./index.js"></script>
 </body>
 
 </html>
