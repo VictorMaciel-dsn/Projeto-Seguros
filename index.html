@@ -10,23 +10,6 @@
 </head>
 
 <body>
-    <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
-    <label for="main-navigation-toggle">
-        <span></span>
-    </label>
-    <nav id="main-navigation" class="nav-main">
-        <ul class="menu">
-            <li class="menu__item">
-                <a class="menu__link" href="index.html"> Home </a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="index.html"> Seguros </a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="index.html"> Contato </a>
-            </li>
-        </ul>
-    </nav>
     <section>
         <div class="home">
             <h2>
@@ -55,8 +38,10 @@
     </section>
     <section>
         <div class="insurance">
-            <h2>Seguros</h2>
-            <label>Proteja seus bens e quem você ama!</label>
+            <div class="labelInsurance">
+                <h1 class="h1LabelInsurance">Seguros</h1>
+                <p class="pLabelInsurance">Proteja seus bens e quem você ama!</p>
+            </div>
             <div class="item">
                 <article class="card">
                     <div class="thumb">
@@ -203,8 +188,9 @@
             <div>Teste</div>
         </div>
     </section>
-    <a class="bt_whatsapp" href="https://api.whatsapp.com/send?phone=5551983229357"><img
-            src="https://i.imgur.com/ryESuZ5.png" data-selector="img"></a>
+    <a href="https://api.whatsapp.com/send?phone=5551983229357
+            &text=Olá, gostaria de obter mais informações sobre os seguros!" target="_blank" rel="noopener">
+        <img class="wp-icon" src="./assets/images/logoWpp.png" alt="Clique aqui para falar com a gente pelo Whatsapp!">
+    </a>
 </body>
-
 </html>
