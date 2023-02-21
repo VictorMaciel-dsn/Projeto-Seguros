@@ -1,3 +1,55 @@
+nav {
+  margin: 8px 0px;
+  background-color: #ee802b;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: -8px;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  margin-left: 145px;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #244174;
+}
+
+.logoNavBar {
+  height: 40px;
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #244174 #ffffff;
+}
+
+*::-webkit-scrollbar {
+  width: 13px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ee802b;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #244174;
+  border-radius: 10px;
+  border: 3px solid #ee802b;
+}
+
 .wp-icon {
   position: fixed;
   width: 50px;
@@ -6,32 +58,161 @@
   right: 0px;
 }
 
-.home {
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-container {
+  background-color: #244174;
+  background: linear-gradient(to left, #ee802b, #244174);
+  width: 100%;
+  height: 100vh;
+}
+
+.circles-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.circle {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  animation-name: float;
+  animation-duration: 25s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  bottom: -150px;
+}
+
+.circle:first-child {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0;
+}
+
+.circle:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 12s;
+  animation-duration: 10s;
+}
+
+.circle:nth-child(3) {
+  left: 70%;
+  width: 40px;
+  height: 40px;
+  animation-delay: 4s;
+}
+
+.circle:nth-child(4) {
+  left: 5%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 20s;
+}
+
+.circle:nth-child(5) {
+  left: 0%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+  animation-duration: 10s;
+}
+
+.circle:nth-child(6) {
+  left: 45%;
+  width: 70px;
+  height: 70px;
+  animation-delay: 10s;
+}
+
+.circle:nth-child(7) {
+  left: 35%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 7s;
+  animation-duration: 9s;
+}
+
+.circle:nth-child(8) {
+  left: 65%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 7s;
+}
+
+.circle:nth-child(9) {
+  left: 75%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 2s;
+}
+
+.circle:nth-child(10) {
+  left: 90%;
+  width: 30px;
+  height: 30px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+
+.title {
+  width: 100%;
+  position: absolute;
+  top: 50vh;
+}
+
+h1 {
   text-align: center;
-  padding: 50px;
+  color: white;
+  font-size: 50px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0.8;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
 }
 
 .who-we-are {
+  background: linear-gradient(to left, #ee802b, #244174);
   text-align: center;
-  padding: 30px;
+  padding: 20px;
+  color: white;
 }
 
 .insurance {
+  background: linear-gradient(to left, #ee802b, #244174);
   text-align: center;
   padding: 30px;
+  color: white;
 }
 
 .labelInsurance {
   text-align: center;
   padding: 20px;
-}
-
-.h1LabelInsurance {
-  font-size: 30px;
-}
-
-.pLabelInsurance {
-  font-size: 21px;
 }
 
 .item {
@@ -69,26 +250,22 @@ article.card .infos {
   height: 350px;
   position: relative;
   padding: 14px 24px;
-  background: #fff;
+  background: linear-gradient(to left, #244174, #ee802b);
   transition: all 0.5s;
 }
 
 article.card .infos .title {
-  position: relative;
+  position: static;
   margin: 5px 0;
   letter-spacing: 3px;
-  color: #152536;
-  font-family: "Grotesque Black", sans-serif;
+  color: #ffffff;
   font-size: 1rem;
-  text-transform: uppercase;
-  text-shadow: 0 0 0px #32577f;
 }
 
 article.card .infos .txt {
-  font-family: "Merriweather", sans-serif;
   line-height: 2;
   font-size: 0.95rem;
-  color: rgba(21, 37, 54, 0.7);
+  color: #ffffff;
   opacity: 0;
   transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
 }
@@ -98,12 +275,15 @@ article.card .infos .details {
   padding: 10px 20px;
   letter-spacing: 1px;
   font-size: 0.9rem;
+  color: #ffffff;
   cursor: pointer;
   opacity: 0;
   transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
 }
 
 .align-partners {
+  color: white;
+  background: linear-gradient(to left, #ee802b, #244174);
   text-align: center;
   padding: 50px;
 }
@@ -113,6 +293,8 @@ article.card .infos .details {
 }
 
 .contact {
+  color: white;
+  background: linear-gradient(to left, #ee802b, #244174);
   text-align: center;
   padding: 50px;
 }
