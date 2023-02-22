@@ -47,7 +47,7 @@ nav li a:hover {
 *::-webkit-scrollbar-thumb {
   background-color: #ffffff;
   border-radius: 7px;
-  
+
 }
 
 .wp-icon {
@@ -63,13 +63,35 @@ nav li a:hover {
   padding: 0px;
 }
 
-.home{
+.home {
   max-width: 530px;
   background: #244174;
   margin-left: 43px;
+  font-family: 'Times New Roman';
 }
 
-.background-home{
+h1 {
+  font-family: 'Times New Roman';
+  text-align: center;
+  color: #ffffff;
+  font-size: 35px;
+  border-top: 50px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Times New Roman';
+  font-size: 20pt;
+  text-align: center;
+}
+h3 {
+  color: black;
+  font-family: 'Times New Roman';
+  font-size: 20pt;
+  text-align: left;
+}
+
+.background-home {
   background: #244174;
 }
 
@@ -185,12 +207,6 @@ nav li a:hover {
   top: 50vh;
 }
 
-h1 {
-  /* font-family: 'Times New Roman', Times, serif; */
-  text-align: left;
-  color: #ffffff;
-  font-size: 50px;
-}
 
 @keyframes float {
   0% {
@@ -220,10 +236,12 @@ h1 {
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
   padding: 30px;
   margin: 20px;
-  width: 3000px;
-  transition: all 0.3s ease-out;
+  max-width: 500px;
   text-align: left;
-  position: static;
+  position: relative;
+  right: 10px;
+
+
 
 }
 
@@ -235,10 +253,10 @@ h1 {
   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
   padding: 30px;
   margin: 20px;
-  width: 6000px;
-  transition: all 0.3s ease-out;
+  max-width: 500px;
   text-align: left;
-  position: static;
+  position: relative;
+  right: 10px;
 
 
 }
@@ -276,11 +294,11 @@ h1 {
   margin-bottom: 50px;
 }
 
-.cardButton{
+.cardButton {
   margin-top: 20px;
 }
 
-.buttonCard{
+.buttonCard {
   width: 220px;
   height: 50px;
   border: none;
@@ -294,12 +312,12 @@ h1 {
   border-radius: 10px;
 }
 
-.buttonCard:before{
+.buttonCard:before {
   content: '';
   background: linear-gradient(45deg, #244174, #00163b, #ffffff);
   position: absolute;
   top: -2px;
-  left:-2px;
+  left: -2px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
@@ -336,9 +354,17 @@ h1 {
 }
 
 @keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
 }
 
 article.card {
@@ -399,7 +425,7 @@ article.card .infos .txt {
 
 .contact {
   color: white;
-  background:  #244174;
+  background: #244174;
   text-align: center;
   padding: 50px;
 }
