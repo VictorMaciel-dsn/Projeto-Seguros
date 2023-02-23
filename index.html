@@ -10,77 +10,51 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><img src="./assets/images/logoEmpresa.png" alt="LogoEmpresa" class="logoNavBar" /></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Seguros</a></li>
-                <li><a href="#">Parceiros</a></li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <img class="logo" src="./assets/images/logoEmpresa.png" alt="LogoEmpresa" />
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#seguros">Seguros</a></li>
+            <li><a href="#parceiros">Parceiros</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+        </ul>
     </header>
-
-    <!-- <section>
-         <div class="title">
-            <div class="main-container">
-                <ul class="circles-container">
-                    <li class="circle"></li>
-                    <li class="circle"></li>
-                    <li class="circle"></li>
-                    <li class="circle"></li>
-                    <li class="circle"></li>
-                    <li class="circle"></li>
-                    <li class="circle"></li>
-                    <li class="circle"></li>
-                    <li class="circle"></li>
-                    <li class="circle"></li>
-                </ul>
-            </div> 
-    </section> -->
-
-    <section>
-        <div class="background-home">
-            <div class="home">
-                <h1>Bem-vindos à AFACIL Seguros</h1>
-                <p> Aqui você encontra o seguro ideal para sua situação!</p>
-            </div>
-        </div>
+    <section class="home" id="home">
+        <h1>Bem-vindos à AFACIL Seguros</h1>
+        <p> Aqui você encontra o seguro ideal para sua situação!</p>
     </section>
-    <div class="imagemprincipal" style="float: right;">
-        <img class="principal" src="./assets/imagemprincipal.jpg" alt="principal" style="float: right;">
-    </div>
-    <section style="background-color:#244174;">
-        <div class="who-we-are">
-            <div class="card-paginainicial">
-                <img class="image" src="./assets/images/paginainicial.jpg" alt="paginainicial">
-                <h2>Quem somos?</h2><br>
-                <p1>
-                    Adquirimos uma experiência no mercado que nos permite oferecer à nossos clientes, suporte técnico
-                    para
-                    selecionar, contratar e gerenciar o seu plano de benefícios em saúde, inclusive avaliar e
-                    administrar
-                    seu atual contrato.
-                    Nossa Responsabilidade
-                    Nossos corretores são treinados pelas próprias companhias, e por isso sempre estão munidos de
-                    informações precisas para orientar nossos clientes na hora da contratação de um produto que
-                    realmente se
-                    enquadre em suas necessidades.
-                    O nosso site, é mais uma ferramenta que vai ajudar a estreitar o contato entre a nossa empresa e
-                    você.
-                    No nosso site você vai encontrar informações sobre os planos e seguros saúde com os quais
-                    trabalhamos e
-                    pode também fazer uma cotação online para saber o valor do seu plano de saúde.
-                    Se preferir entre em contato com nossos corretores ou venha nos visitar. Veja aqui nossos contatos e
-                    formas de falar com nossos corretores.
+    <section class="section">
+        <div class="card-paginainicial">
+            <h2>Quem somos?</h2><br>
+            <p>
+                Adquirimos uma experiência no mercado que nos permite oferecer à nossos clientes, suporte técnico
+                para
+                selecionar, contratar e gerenciar o seu plano de benefícios em saúde, inclusive avaliar e
+                administrar
+                seu atual contrato.
+                Nossa Responsabilidade
+                Nossos corretores são treinados pelas próprias companhias, e por isso sempre estão munidos de
+                informações precisas para orientar nossos clientes na hora da contratação de um produto que
+                realme-nte se
+                enquadre em suas necessidades.
+                O nosso site, é mais uma ferramenta que vai ajudar a estreitar o contato entre a nossa empresa e
+                você.
+                No nosso site você vai encontrar informações sobre os planos e seguros saúde com os quais
+                trabalhamos e
+                pode também fazer uma cotação online para saber o valor do seu plano de saúde.
+                Se preferir entre em contato com nossos corretores ou venha nos visitar. Veja aqui nossos contatos e
+                formas de falar com nossos corretores.
 
-                </p1>
-            </div>
+            </p>
+        </div>
+        <div class="imagemprincipal">
+            <img class="principal" src="./assets/images/imagemprincipal.jpg" alt="principal">
         </div>
     </section>
     <section>
-        <div class="insurance">
+        <div class="insurance" id="seguros">
             <div class="labelInsurance">
                 <h3>Seguros</h3>
             </div>
@@ -234,8 +208,8 @@
         </div>
     </section>
     <section>
-        <div class="align-partners">
-            <h2>Nossos parceiros</h2>
+        <div class="align-partners" id="parceiros">
+            <h3>Nossos parceiros</h3>
             <div class="partners">
                 <img src="https://b2cor.agencialink.com.br/clientes/config_modelos/logos/logos_sp/logo-6.jpg">
             </div>
@@ -257,8 +231,8 @@
         </div>
     </section>
     <section>
-        <div class="contact">
-            <h2>Contatos</h2>
+        <div class="contact" id="contatos">
+            <h3>Contatos</h3>
             <div>Teste</div>
         </div>
     </section>
