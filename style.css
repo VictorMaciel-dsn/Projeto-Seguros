@@ -23,13 +23,24 @@ section {
   border-radius: 7px;
 }
 
-.wp-icon {
+.bt-wpp {
   position: fixed;
-  width: 40px;
-  height: 40px;
-  bottom: 10px;
-  right: 0px;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
 }
+
+i {
+  margin-top: 16px;
+} 
 
 .header {
   background-color: #fff;
@@ -254,6 +265,10 @@ h3 {
   justify-content: center;
 }
 
+.card-ceo{
+  margin-top: 10px;
+}
+
 .card-paginainicial {
   background-color: white;
   border-radius: 5px;
@@ -264,8 +279,7 @@ h3 {
   width: 50%;
   text-align: left;
   align-items: center;
-  position: relative;
-  
+  position: relative; 
 }
 
 .card-paginainicial h2 {
@@ -411,6 +425,13 @@ article.card .infos {
   padding: 14px 24px;
   background: white;
   transition: all 0.5s;
+}
+
+article.card .infos .date {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #244174;
 }
 
 article.card .infos .title {
