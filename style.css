@@ -8,7 +8,9 @@ body,
 header,
 section {
   width: 100%;
+
 }
+
 
 *::-webkit-scrollbar {
   width: 7px;
@@ -41,13 +43,17 @@ section {
 
 i {
   margin-top: 16px;
-} 
+}
 
 .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
   width: 100%;
   padding: 0 6%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
 }
 
 .header ul {
@@ -165,13 +171,13 @@ i {
   }
 }
 
-@media(max-width: 48em){
-  .banner{
+@media(max-width: 48em) {
+  .banner {
     height: 100vh;
     background-size: cover;
   }
 }
- 
+
 
 .principal {
   width: 100%;
@@ -194,7 +200,7 @@ element.style {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
+
 }
 
 .home {
@@ -254,6 +260,7 @@ h3 {
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .section-banner {
@@ -267,7 +274,7 @@ h3 {
   justify-content: center;
 }
 
-.card-ceo{
+.card-ceo {
   margin-top: 10px;
 }
 
@@ -281,7 +288,7 @@ h3 {
   width: 50%;
   text-align: left;
   align-items: center;
-  position: relative; 
+  position: relative;
 }
 
 .card-paginainicial h2 {
@@ -494,3 +501,22 @@ article.card:hover .infos {
   }
 
 }
+
+  #celular {
+  display: inline-block;
+  margin-right: 300px;
+  margin-top: 12px;
+}
+
+  #email {
+  display: inline-block;
+  margin-right: 300px;
+  margin-top: 10px;
+
+}
+
+  #endereço {
+  display: inline-block;
+  margin-top: 10px;
+}
+
