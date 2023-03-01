@@ -8,9 +8,7 @@ body,
 header,
 section {
   width: 100%;
-
 }
-
 
 *::-webkit-scrollbar {
   width: 7px;
@@ -171,14 +169,6 @@ i {
   }
 }
 
-@media(max-width: 48em) {
-  .banner {
-    height: 100vh;
-    background-size: cover;
-  }
-}
-
-
 .principal {
   width: 100%;
   object-fit: cover;
@@ -193,14 +183,28 @@ element.style {
   background: #244174;
 }
 
+#image_mobile {
+  display: none;
+}
+
 .banner {
   width: 100%;
-  /* height: auto; */
-  /*background: url("../Projeto-Seguros/assets/images/seguros/banner.jpeg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  height: auto;
+  margin-top: 60px;
+}
 
+@media screen and (max-width: 780px) {
+  .banner {
+    background: url("./assets/images/bannerResponsive.png");
+  }
+
+  #image_mobile {
+    display: flex;
+  }
+
+  #image_web {
+    display: none;
+  }
 }
 
 .home {
@@ -502,21 +506,20 @@ article.card:hover .infos {
 
 }
 
-  #celular {
+#celular {
   display: inline-block;
   margin-right: 300px;
   margin-top: 12px;
 }
 
-  #email {
+#email {
   display: inline-block;
   margin-right: 300px;
   margin-top: 10px;
 
 }
 
-  #endereço {
+#endereço {
   display: inline-block;
   margin-top: 10px;
 }
-
