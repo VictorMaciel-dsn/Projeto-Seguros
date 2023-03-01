@@ -264,7 +264,6 @@ h3 {
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .section-banner {
@@ -279,7 +278,12 @@ h3 {
 }
 
 .card-ceo {
-  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .card-paginainicial {
