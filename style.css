@@ -38,6 +38,30 @@ section {
   z-index: 1000;
   right: 10px;
 }
+ /*  .bt-face{
+  display: flex;
+  width: 45px;
+  height: 45px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  -webkit-box-pack: center;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center; 
+} 
+.bt-insta{
+  display: flex;
+  width: 45px;
+  height: 45px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  margin-left: 4px;
+  -webkit-box-pack: center;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center; 
+} */
 
 i {
   margin-top: 16px;
@@ -480,8 +504,8 @@ article.card .infos .txt {
 }
 
 .contact {
-  color: white;
-  background: #244174;
+  color:#244174;
+  background: #FFF;
   text-align: center;
   padding: 50px;
 }
@@ -510,20 +534,158 @@ article.card:hover .infos {
 
 }
 
-#celular {
+.celular {
+  background-color:white;
+  border-radius: 5px;
+  border: 4px solid #244174;
+  padding: 50px;
+  margin: 40px;
+  max-width: 350px;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  right: 40px;
   display: inline-block;
-  margin-right: 300px;
-  margin-top: 12px;
 }
 
-#email {
+.email {  
+  background-color: white;
+  border-radius: 5px;
+  border: 4px solid #244174;
+  padding: 50px;
+  margin: 40px;
+  max-width: 350px;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  right: 50px;
   display: inline-block;
-  margin-right: 300px;
-  margin-top: 10px;
+  left: -28px;
 
 }
 
-#endereço {
+.endereco {
+  background-color: white ;
+  border-radius: 5px;
+  border: 4px solid #244174;
+  padding: 50px;
+  margin: 40px;
+  max-width: 350px;
+  width: 50%;
+  text-align: center;
+  position: relative;
   display: inline-block;
-  margin-top: 10px;
+  left: -15px;
+}
+
+.fim {
+  background: white;
+}
+.contact{
+  background:white;
+}
+.fa-solid.fa-location-dot {
+ margin-top: -91px;
+ line-height: 140px; 
+ color: #244174;
+}
+.fa-regular.fa-envelope {
+  margin-top: -91px;
+ line-height: 185px;
+ color: #244174; 
+}
+.fa-solid.fa-mobile-screen-button {
+  margin-top: -91px;
+  line-height: 185px;
+  color: #244174; 
+}
+h4{
+  font-family: 'Baskerville';
+  font-size: 15pt;
+  text-align: center;
+}
+h5{
+  font-family: 'Baskerville';
+  font-size: 25pt;
+  text-align: center;
+  right: 34px;
+  position: relative;
+}
+
+.fa-brands.fa-facebook{
+  color: #244174;
+}
+
+.fa-brands.fa-instagram{
+color: #C21975;
+}
+
+.btn_social { 
+	width:100%; 
+	float:left; 
+	display:flex; 
+	margin:auto; 
+}
+.btn_social ul  { 
+	width:auto; 
+	margin:auto; 
+	float:left; 
+	display:block; 
+}
+.btn_social ul li  { 
+	position:relative; 
+	background:white; 
+	list-style:none; 
+	float:left; 
+	margin:5px; 
+	z-index:1; 
+	overflow:hidden; 
+	border-radius:3px; 
+	font-size:1.5em; 
+	text-align:center; 
+}
+.btn_social ul li a  { 
+	width:50px; 
+	height:50px; 
+	line-height:53px; 
+	display:block; 
+	text-decoration:none; 
+	color:#fff; 
+	transition:.4s;
+}
+.btn_social ul li::before { 
+	transition:0.4s; 
+	position:absolute; 
+	content:''; 
+	width:100%; 
+	height:100%; 
+	top:90%; 
+	left:0; 
+	background:#2fcacf; 
+	z-index:-1; 
+	transform: scale(1); 
+	transition:.4s; 
+}
+.btn_social ul li:hover::before { transition:0.4s; top:0%; }
+.btn_social ul li a:hover       { color:#555555; }
+
+.final{
+    font-family: 'Optimistic Text Normal', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    right: 1420px;
+    position: relative;
+}
+.afacil-logo{
+  height: 75px;
+  float: left;
+  margin-top: -22px;
+  left: 44px;
+  position: relative;
+}
+h6{
+  font-family: 'Baskerville';
+  font-size: 20pt;
+  text-align: center;
 }
