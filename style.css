@@ -262,8 +262,9 @@ h3 {
   flex-direction: row;
   align-items: center;
   gap: 30px;
-  flex-wrap: wrap;
   justify-content: center;
+  margin-top: -1px;
+  margin-bottom: -1px;
 }
 
 .section-banner {
@@ -310,7 +311,66 @@ h3 {
   margin: 0px 10px 10px 0;
   align-items: right;
 }
+article.card-ceo {
+  width: 295px;
+  height: 350px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
 
+article.card-ceo .thumb {
+  width: auto;
+  height: 260px;
+  border-radius: 8px;
+}
+
+article.card-ceo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+article.card-ceo .infos{
+  width: auto;
+  height: 350px;
+  position: relative;
+  padding: 14px 24px;
+  background: white;
+  transition: all 0.5s;
+}
+
+article.card-ceo .infos .date {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #244174;
+}
+
+article.card-ceo .infos .title {
+  text-align: center;
+  position: static;
+  margin: 5px 0;
+  color: #244174;
+  font-size: 1rem;
+}
+
+article.card-ceo .infos .txt {
+  line-height: 2;
+  margin-top: 20px;
+  font-size: 0.95rem;
+  color: #244174;
+  opacity: 0;
+  transition: 0.5s 0.25s cubic-bezier(0.17, 0.67, 0.5, 1.03);
+}
+article.card-ceo:hover .infos .txt {
+  opacity: 1;
+}
+
+article.card-ceo:hover .infos {
+  transform: translateY(-150px);
+}
 .insurance {
   background: #244174;
   text-align: center;
@@ -551,11 +611,10 @@ article.card:hover .infos {
   border: 4px solid #244174;
   padding: 50px;
   margin: 10px;
-  max-width: 350px;
-  width: 50%;
+  max-width: 243px;
   text-align: center;
   position: relative;
-  right: 18px;
+  right: -4px;
   display: inline-block;
 }
 
@@ -565,13 +624,12 @@ article.card:hover .infos {
   border: 4px solid #244174;
   padding: 50px;
   margin: 10px;
-  max-width: 350px;
-  width: 50%;
+  max-width: 236px;
   text-align: center;
   position: relative;
   right: 50px;
   display: inline-block;
-  left: 5px;
+  left: 4px;
 
 }
 
@@ -582,11 +640,10 @@ article.card:hover .infos {
   padding: 50px;
   margin: 10px;
   max-width: 350px;
-  width: 50%;
   text-align: center;
   position: relative;
   display: inline-block;
-  left: 20px;
+  left: 5px;
 }
 
 .fim {
@@ -617,7 +674,7 @@ article.card:hover .infos {
 
 h4 {
   font-family: 'Baskerville';
-  font-size: 15pt;
+  font-size: 14pt;
   text-align: center;
 }
 
@@ -628,6 +685,8 @@ h5 {
   right: 34px;
   position: relative;
   margin-bottom: 15px;
+  justify-content: center;
+  display: flex;
 }
 
 .fa-brands.fa-facebook {
