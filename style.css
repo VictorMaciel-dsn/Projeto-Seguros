@@ -646,6 +646,7 @@ article.card:hover .infos {
   padding: 50px;
   margin: 10px;
   max-width: 329px;
+  width: 100%;
   text-align: center;
   position: relative;
   display: inline-block;
@@ -682,6 +683,7 @@ h4 {
   font-family: 'Baskerville';
   font-size: 14pt;
   text-align: center;
+  width: 100%;
 }
 
 h5 {
