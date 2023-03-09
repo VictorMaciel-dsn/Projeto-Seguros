@@ -619,7 +619,7 @@ article.card:hover .infos {
   width: 100%;
   text-align: center;
   position: relative;
-  right: -4px;
+  right: 8px;
   display: inline-block;
 }
 
@@ -633,9 +633,8 @@ article.card:hover .infos {
   width: 100%;
   text-align: center;
   position: relative;
-  right: 50px;
   display: inline-block;
-  left: 4px;
+  left: -8px;
 
 }
 
@@ -650,7 +649,7 @@ article.card:hover .infos {
   text-align: center;
   position: relative;
   display: inline-block;
-  left: 5px;
+  left: -7px;
 }
 
 .fim {
