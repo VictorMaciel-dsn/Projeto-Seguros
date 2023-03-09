@@ -684,6 +684,7 @@ h4 {
   font-size: 14pt;
   text-align: center;
   width: 100%;
+  word-wrap: break-word;
 }
 
 h5 {
