@@ -194,6 +194,9 @@ i {
     background: #244174;
     text-align: center;
     padding: 50px;
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
 }
 
 .card-coberturas {
@@ -202,9 +205,12 @@ i {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 25px;
     margin: 30px;
-    align-items: center;
+    /* align-items: center; */
     position: relative;
-}
+    width:838px;
+    left: 181px;
+    /* flex: 1 1 150px;*/
+} 
 
 swiper-container {
     min-width: 300px;
@@ -242,4 +248,16 @@ swiper-slide {
     height: 100%;
     object-fit: contain;
     border-radius: 12px;
+}
+
+h1 {
+    font-family: 'Baskerville';
+    font-size: 25pt
+
+}
+h2{
+    font-family: 'Baskerville';
+    font-size: 12pt;
+    font-weight: lighter;
+
 }
