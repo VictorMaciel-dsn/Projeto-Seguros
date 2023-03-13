@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../style.css"> -->
+    <link rel="stylesheet" type="text/css" href="./index.css">
     <script type="text/javascript" src="../../index.js"></script>
     <link rel="shortcut icon" href="../../assets/images/logoEmpresa.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -18,20 +19,17 @@
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
-            <li>
-                <div class="custom-select">
-                    <select>
-                        <option value="0">Seguros:</option>
-                        <option value="1">Seguro Automóvel</option>
-                        <option value="2">Seguro Moto</option>
-                        <option value="3">Seguro Viagem</option>
-                        <option value="4">Seguro de Vida</option>
-                        <option value="5">Seguro Bike</option>
-                        <option value="6">Seguro Residência</option>
-                        <option value="7">Seguro Responsabilidade Civil Profissional</option>
-                        <option value="8">Seguro Celular</option>
-                        <option value="9">Seguro Pet</option>
-                    </select>
+            <li class="dropdown">
+                <a class="dropbtn">Seguros</a>
+                <div class="dropdown-content">
+                    <a href="../seguroauto/index.html">Seguro Automóvel</a>
+                    <a href="../seguromoto/index.html">Seguro Moto</a>
+                    <a href="../seguroviagem/index.html">Seguro Viagem</a>
+                    <a href="../segurovida/index.html">Seguro de Vida</a>
+                    <a href="../seguroresidencia/index.html">Seguro Residência</a>
+                    <a href="../seguroresponsabilidadevicil/index.html">Seguro Responsabilidade Civil Profissional</a>
+                    <a href="../segurocelular/index.html">Seguro Celular</a>
+                    <a href="../seguropet/index.html">Seguro Pet</a>
                 </div>
             </li>
             <li><a href="../../index.html">Home</a></li>
