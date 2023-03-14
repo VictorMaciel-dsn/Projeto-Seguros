@@ -13,6 +13,7 @@ section {
 
 *::-webkit-scrollbar {
     width: 7px;
+    height: 7px;
 }
 
 *::-webkit-scrollbar-track {
@@ -170,10 +171,6 @@ i {
     }
 }
 
-.custom-select {
-    margin-top: 20px;
-}
-
 .section-banner {
     width: 100%;
     display: flex;
@@ -194,9 +191,6 @@ i {
     background: #244174;
     text-align: center;
     padding: 50px;
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
 }
 
 .card-coberturas {
@@ -205,12 +199,8 @@ i {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 25px;
     margin: 30px;
-    /* align-items: center; */
     position: relative;
-    width:838px;
-    left: 181px;
-    /* flex: 1 1 150px;*/
-} 
+}
 
 swiper-container {
     min-width: 300px;
@@ -253,11 +243,47 @@ swiper-slide {
 h1 {
     font-family: 'Baskerville';
     font-size: 25pt
-
 }
-h2{
+
+h2 {
     font-family: 'Baskerville';
     font-size: 12pt;
     font-weight: lighter;
+}
 
+li a,
+.dropbtn {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.iconDrop {
+    width: 10px;
+    margin-left: 5px;
 }
