@@ -187,24 +187,25 @@ i {
 }
 
 .coberturas {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
     color: white;
-    background: #244174;
-    text-align: center;
-    padding: 50px;
+    padding: 45px;
 }
 
 .card-coberturas {
+    max-width: 550px;
+    width: 100%;
+    min-width: 200px;
     background-color: white;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 25px;
     margin: 30px;
-    position: relative;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    right: 27px;
 }
 
 swiper-container {
@@ -293,63 +294,43 @@ li a,
     width: 10px;
     margin-left: 5px;
 }
-h3{
+
+h3 {
     font-family: 'Baskerville';
     font-size: 25pt;
     color: #FFF;
-   
     justify-content: center;
     display: flex;
 }
-.vantagens{
-    padding: 0 50px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
-    justify-content: center;
-    margin-top: -1px;
-    margin-bottom: -1px;
 
-}
- .p1{
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 30px;
-  margin: 18px;
-  max-width: 87%;
-  /* width: 50%; */
-  position: relative;
-  background-color: #c78305 ;
-  color: #FFF;
-  font-family: 'Baskerville';
-}
-.p2{
+.card-vantagens {
+    color: white;
+    background-color: #c78305;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 30px;
-    margin: 18px;
-    max-width: 87%;
-    /* width: 50%; */
+    padding: 25px;
     position: relative;
-    background-color: #c58c22 ;
-    color: #FFF;
-    font-family: 'Baskerville';
-  }
-  .p3{
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    padding: 30px;
-    margin: 19px;
-    max-width: 87%;
-    /* width: 50%; */
-    position: relative;
-    background-color: #c4953e;
-    color: #FFF;
-    font-family: 'Baskerville';
-  }
-.vantagens-seguro{
     display: flex;
-    margin-bottom: -25px;
-    margin-left: 565px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Baskerville';
+    min-width: 250px;
+    max-width: 375px;
+    min-height: 212px;
+}
+
+.vantagens-cards {
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.vantagens {
+    color: white;
+    text-align: center;
+    padding: 0px 76px 0px 76px;
 }
