@@ -22,7 +22,10 @@ section {
   background-color: #ffffff;
   border-radius: 7px;
 }
-
+:root{
+  --font: 'Times New Roman';
+  
+}
 .bt-wpp {
   position: fixed;
   width: 60px;
@@ -211,14 +214,14 @@ element.style {
   padding: 20px 50px;
   width: 100%;
   background: #244174;
-  font-family: 'Times New Roman';
+  font-family:var(--font);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .home h1 {
-  font-family: 'Times New Roman';
+  font-family:var(--font);
   text-align: center;
   color: #ffffff;
   font-size: 35px;
@@ -231,7 +234,7 @@ element.style {
 
 p {
   color: white;
-  font-family: 'Baskerville';
+  font-family:var(--font);
   font-size: 15pt;
   text-align: center;
   margin-top: -19px;
@@ -239,14 +242,14 @@ p {
 
 h2 {
   color: white;
-  font-family: 'Times New Roman';
+  font-family:var(--font);
   font-size: 20pt;
   text-align: left;
 }
 
 h3 {
   color: white;
-  font-family: 'Baskerville';
+  font-family:var(--font);
   font-size: 30pt;
   text-align: center;
 }
@@ -653,6 +656,7 @@ article.card:hover .infos {
 
 .fim {
   background: white;
+  height: 235px;
 }
 
 .contact {
@@ -678,7 +682,7 @@ article.card:hover .infos {
 }
 
 h4 {
-  font-family: 'Baskerville';
+  font-family:var(--font);
   font-size: 14pt;
   text-align: center;
   width: 100%;
@@ -686,7 +690,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Baskerville';
+  font-family:var(--font);
   font-size: 25pt;
   text-align: center;
   right: 34px;
@@ -782,7 +786,7 @@ h5 {
 }
 
 h6 {
-  font-family: 'Baskerville';
+  font-family:var(--font);
   font-size: 20pt;
   text-align: center;
   margin-top: 15px;
