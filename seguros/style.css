@@ -24,10 +24,12 @@ section {
     background-color: #ffffff;
     border-radius: 7px;
 }
-:root{
+
+:root {
     --font: 'Times New Roman';
-    
+
 }
+
 .bt-wpp {
     position: fixed;
     width: 60px;
@@ -299,7 +301,7 @@ li a,
 }
 
 h3 {
-    font-family:var(--font);
+    font-family: var(--font);
     font-size: 25pt;
     color: #FFF;
     justify-content: center;
@@ -316,10 +318,10 @@ h3 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-family:var(--font);
+    font-family: var(--font);
     min-width: 250px;
     max-width: 375px;
-    min-height: 263px;
+    min-height: 307px;
 }
 
 .vantagens-cards {
@@ -337,35 +339,37 @@ h3 {
     text-align: center;
     padding: 0px 76px 0px 76px;
 }
+
 .fim {
     background: white;
-  }
-  .fa-brands.fa-facebook {
+}
+
+.fa-brands.fa-facebook {
     color: #244174;
     line-height: 0;
-  }
-  
-  .fa-brands.fa-instagram {
+}
+
+.fa-brands.fa-instagram {
     color: #C21975;
     line-height: 0;
-  }
-  
-  .btn_social {
+}
+
+.btn_social {
     width: 100%;
     float: left;
     display: flex;
     margin: auto;
     background: white;
-  }
-  
-  .btn_social ul {
+}
+
+.btn_social ul {
     width: auto;
     margin: auto;
     float: left;
     display: block;
-  }
-  
-  .btn_social ul li {
+}
+
+.btn_social ul li {
     position: relative;
     background: white;
     list-style: none;
@@ -376,9 +380,9 @@ h3 {
     border-radius: 3px;
     font-size: 1.5em;
     text-align: center;
-  }
-  
-  .btn_social ul li a {
+}
+
+.btn_social ul li a {
     width: 50px;
     height: 50px;
     line-height: 0;
@@ -386,9 +390,9 @@ h3 {
     text-decoration: none;
     color: #fff;
     transition: .4s;
-  }
-  
-  .btn_social ul li::before {
+}
+
+.btn_social ul li::before {
     transition: 0.4s;
     position: absolute;
     content: '';
@@ -400,38 +404,99 @@ h3 {
     z-index: -1;
     transform: scale(1);
     transition: .4s;
-  }
-  
-  .btn_social ul li:hover::before {
+}
+
+.btn_social ul li:hover::before {
     transition: 0.4s;
     top: 0%;
-  }
-  
-  .btn_social ul li a:hover {
-    color: #555555;
-  }
-  
+}
 
-  .final {
+.btn_social ul li a:hover {
+    color: #555555;
+}
+
+
+.final {
     font-family: 'Optimistic Text Normal', Helvetica, Arial, sans-serif;
     font-size: 13px;
     position: relative;
     font-weight: bold;
     right: 1301px;
     color: #244174;
-  }
-  
-  .afacil-logo {
+}
+
+.afacil-logo {
     height: 60px;
     float: left;
     margin-top: -22px;
     left: -45px;
     position: relative;
-  }
-  h4 {
-    font-family:var(--font);
+}
+
+h4 {
+    font-family: var(--font);
     font-size: 20pt;
     text-align: center;
     margin-top: 15px;
     color: #244174;
+}
+
+.logo-footer {
+    height: 48px;
+    margin-top: 7px;
+    margin-left: 24px;
+    margin-bottom: -39px;
+}
+
+.copy {
+    font-family: var(--font);
+    margin-left: 15px;
+    font-size: 13px;
+    position: relative;
+    font-weight: bold;
+    color: #244174;
+}
+
+.buttonCard {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background: #244174;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: var(--font);
+  }
+  
+  .buttonCard:before {
+    content: '';
+    background: linear-gradient(45deg, #244174, #030141);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .buttonCard:active {
+    color: #ffffff
+  }
+  
+  .buttonCard:active:after {
+    background: transparent;
+  }
+  
+  .buttonCard:hover:before {
+    opacity: 1;
   }
