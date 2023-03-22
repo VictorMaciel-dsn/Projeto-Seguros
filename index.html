@@ -1,318 +1,393 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
+  <head>
     <title>AFACIL Gestão de Benefícios</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="shortcut icon" href="./assets/images/logoEmpresa.png" type="image/x-icon" />
-    <script src="https://kit.fontawesome.com/17c859c741.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logoEmpresa.png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/17c859c741.js"
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <img class="logo" src="./assets/images/logoEmpresa.png" alt="LogoEmpresa" />
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#quemSomos">Quem somos</a></li>
-            <li><a href="#seguros">Seguros</a></li>
-            <li><a href="#parceiros">Parceiros</a></li>
-            <li><a href="#contatos">Contatos</a></li>
-        </ul>
+      <img
+        class="logo"
+        src="./assets/images/logoEmpresa.png"
+        alt="LogoEmpresa"
+      />
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#quemSomos">Quem somos</a></li>
+        <li><a href="#seguros">Seguros</a></li>
+        <li><a href="#parceiros">Parceiros</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+      </ul>
     </header>
     <section class="section-banner">
-        <div id="image_web">
-            <img class="banner" src="./assets/images/paginaprincipal/banner.png" alt="bannerpag">
-        </div>
-        <div id="image_mobile">
-            <img class="banner" src="./assets/images/paginaprincipal/bannerResponsive.png" alt="bannerpag">
-        </div>
+      <div id="image_web">
+        <img
+          class="banner"
+          src="./assets/images/paginaprincipal/banner.png"
+          alt="bannerpag"
+        />
+      </div>
+      <div id="image_mobile">
+        <img
+          class="banner"
+          src="./assets/images/paginaprincipal/bannerResponsive.png"
+          alt="bannerpag"
+        />
+      </div>
     </section>
     <section>
-        <div class="insurance" id="seguros">
-            <div class="labelInsurance">
-                <h3>Seguros</h3>
-            </div>
-            <div class="item">
-                <article class="card">
-                    <div class="thumb">
-                        <img src="./assets/images/seguros/seguroauto.jpg" alt="Seguro-Auto" />
-                    </div>
-                    <div class="infos">
-                        <h2 class="title">Seguro Automóvel</h2>
-                        <p class="txt">
-                            Assistência 24 horas, atendimento gratuito nos Centros Automotivos e serviços para a casa.
-                        </p>
-                        <div class="cardButton">
-                            <a href="./seguros/seguroauto/index.html">
-                                <button class="buttonCard">
-                                    Ver mais
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <div class="thumb">
-                        <img src="./assets/images/seguros/seguromoto.jpg" alt="Seguro-Moto" />
-                    </div>
-                    <div class="infos">
-                        <h2 class="title">Seguro Moto</h2>
-                        <p class="txt">
-                            O seguro que combina com seu estilo, com cobertura completa e assistência 24h.
-                        </p>
-                        <div class="cardButton">
-                            <a href="./seguros/seguromoto/index.html">
-                                <button class="buttonCard">
-                                    Ver mais
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <div class="thumb">
-                        <img src="./assets/images/seguros/seguroviagem.jpg" alt="Seguro-Viagem" />
-                    </div>
-                    <div class="infos">
-                        <h2 class="title">Seguro Viagem</h2>
-                        <p class="txt">
-                            Viaje com segurança e tranquilidade
-                        </p>
-                        <div class="cardButton">
-                            <a href="./seguros/seguroviagem/index.html">
-                                <button class="buttonCard">
-                                    Ver mais
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <div class="thumb">
-                        <img src="./assets/images/seguros/segurovida.jpg" alt="Seguro-de-Vida" />
-                    </div>
-                    <div class="infos">
-                        <h2 class="title">Seguro de Vida</h2>
-                        <p class="txt">
-                            Benefícios em vida, contratos descomplicados e coberturas especialmente para você.
-                        </p>
-                        <div class="cardButton">
-                            <a href="./seguros/segurovida/index.html">
-                                <button class="buttonCard">
-                                    Ver mais
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <div class="thumb">
-                        <img src="./assets/images/seguros/segurobike.jpg" alt="Seguro-Bike" />
-                    </div>
-                    <div class="infos">
-                        <h2 class="title">Seguro Bike</h2>
-                        <p class="txt">
-                            Uma solução completa que oferece proteção e serviços para você se aventurar sem medo.
-                        </p>
-                        <div class="cardButton">
-                            <a href="./seguros/segurobike/index.html">
-                                <button class="buttonCard">
-                                    Ver mais
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <div class="thumb">
-                        <img src="./assets/images/seguros/seguroresidencia.jpg" alt="Seguro-Residencia" />
-                    </div>
-                    <div class="infos">
-                        <h2 class="title">Seguro Residência</h2>
-                        <p class="txt">
-                            Tudo que você precisa para proteção e assistência do seu lar.
-                        </p>
-                        <div class="cardButton">
-                            <a href="./seguros/seguroresidencia/index.html">
-                                <button class="buttonCard">
-                                    Ver mais
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <div class="thumb">
-                        <img src="./assets/images/seguros/responsabilidadecivil.jpg"
-                            alt="Seguro-Responsabilidade-Civil" />
-                    </div>
-                    <div class="infos">
-                        <h2 class="title">Seguro Responsabilidade Civil Profissional</h2>
-                        <p class="txt">
-                            Você protegido contra os imprevistos da profissão.
-                        </p>
-                        <div class="cardButton">
-                            <a href="./seguros/seguroresponsabilidadevicil/index.html">
-                                <button class="buttonCard">
-                                    Ver mais
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <div class="thumb">
-                        <img src="./assets/images/seguros/segurocelular.jpg" alt="Seguro-Celular" />
-                    </div>
-                    <div class="infos">
-                        <h2 class="title">Seguro Celular</h2>
-                        <p class="txt">
-                            Proteja seu celular contra quebra acidental, roubo e até mesmo furto.
-                        </p>
-                        <div class="cardButton">
-                            <a href="./seguros/segurocelular/index.html">
-                                <button class="buttonCard">
-                                    Ver mais
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <div class="thumb">
-                        <img src="./assets/images/seguros/seguropet.jpg" alt="Seguro-Pet" />
-                    </div>
-                    <div class="infos">
-                        <h2 class="title">Seguro Pet</h2>
-                        <p class="txt">
-                            Proteja seu melhor amigo!
-                        </p>
-                        <div class="cardButton">
-                            <a href="./seguros/seguropet/index.html">
-                                <button class="buttonCard">
-                                    Ver mais
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </article>
-            </div>
+      <div class="insurance" id="seguros">
+        <div class="labelInsurance">
+          <h3>Seguros</h3>
         </div>
+        <div class="item">
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="./assets/images/seguros/seguroauto.jpg"
+                alt="Seguro-Auto"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Seguro Automóvel</h2>
+              <p class="txt">
+                Assistência 24 horas, atendimento gratuito nos Centros
+                Automotivos e serviços para a casa.
+              </p>
+              <div class="cardButton">
+                <a href="./seguros/seguroauto/index.html">
+                  <button class="buttonCard">Ver mais</button>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="./assets/images/seguros/seguromoto.jpg"
+                alt="Seguro-Moto"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Seguro Moto</h2>
+              <p class="txt">
+                O seguro que combina com seu estilo, com cobertura completa e
+                assistência 24h.
+              </p>
+              <div class="cardButton">
+                <a href="./seguros/seguromoto/index.html">
+                  <button class="buttonCard">Ver mais</button>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="./assets/images/seguros/seguroviagem.jpg"
+                alt="Seguro-Viagem"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Seguro Viagem</h2>
+              <p class="txt">Viaje com segurança e tranquilidade</p>
+              <div class="cardButton">
+                <a href="./seguros/seguroviagem/index.html">
+                  <button class="buttonCard">Ver mais</button>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="./assets/images/seguros/segurovida.jpg"
+                alt="Seguro-de-Vida"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Seguro de Vida</h2>
+              <p class="txt">
+                Benefícios em vida, contratos descomplicados e coberturas
+                especialmente para você.
+              </p>
+              <div class="cardButton">
+                <a href="./seguros/segurovida/index.html">
+                  <button class="buttonCard">Ver mais</button>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="./assets/images/seguros/segurobike.jpg"
+                alt="Seguro-Bike"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Seguro Bike</h2>
+              <p class="txt">
+                Uma solução completa que oferece proteção e serviços para você
+                se aventurar sem medo.
+              </p>
+              <div class="cardButton">
+                <a href="./seguros/segurobike/index.html">
+                  <button class="buttonCard">Ver mais</button>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="./assets/images/seguros/seguroresidencia.jpg"
+                alt="Seguro-Residencia"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Seguro Residência</h2>
+              <p class="txt">
+                Tudo que você precisa para proteção e assistência do seu lar.
+              </p>
+              <div class="cardButton">
+                <a href="./seguros/seguroresidencia/index.html">
+                  <button class="buttonCard">Ver mais</button>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="./assets/images/seguros/responsabilidadecivil.jpg"
+                alt="Seguro-Responsabilidade-Civil"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Seguro Responsabilidade Civil Profissional</h2>
+              <p class="txt">
+                Você protegido contra os imprevistos da profissão.
+              </p>
+              <div class="cardButton">
+                <a href="./seguros/seguroresponsabilidadevicil/index.html">
+                  <button class="buttonCard">Ver mais</button>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="./assets/images/seguros/segurocelular.jpg"
+                alt="Seguro-Celular"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Seguro Celular</h2>
+              <p class="txt">
+                Proteja seu celular contra quebra acidental, roubo e até mesmo
+                furto.
+              </p>
+              <div class="cardButton">
+                <a href="./seguros/segurocelular/index.html">
+                  <button class="buttonCard">Ver mais</button>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <div class="thumb">
+              <img
+                src="./assets/images/seguros/seguropet.jpg"
+                alt="Seguro-Pet"
+              />
+            </div>
+            <div class="infos">
+              <h2 class="title">Seguro Pet</h2>
+              <p class="txt">Proteja seu melhor amigo!</p>
+              <div class="cardButton">
+                <a href="./seguros/seguropet/index.html">
+                  <button class="buttonCard">Ver mais</button>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
     <section class="section" id="quemSomos">
-        <div class="card-paginainicial">
-            <h2>Quem somos?</h2><br>
-            <p>
-                Adquirimos uma experiência no mercado que nos permite oferecer à nossos clientes, suporte técnico
-                para selecionar, contratar e gerenciar o seu plano de benefícios, inclusive avaliar e administrar seu
-                atual contrato.
-                Nossos corretores são treinados pelas próprias companhias, e por isso sempre estão munidos de
-                informações precisas para orientar nossos clientes na hora da contratação de um produto que
-                realmente se enquadre em suas necessidades.
-                Através do nosso site você consegue acessar todos os seguros que trabalhamos e entrar em contato conosco
-                para tirar dúvidas, pedir informações e realizar sua cotação.
+      <div class="card-paginainicial">
+        <h2>Quem somos?</h2>
+        <br />
+        <p>
+          Adquirimos uma experiência no mercado que nos permite oferecer à
+          nossos clientes, suporte técnico para selecionar, contratar e
+          gerenciar o seu plano de benefícios, inclusive avaliar e administrar
+          seu atual contrato. Nossos corretores são treinados pelas próprias
+          companhias, e por isso sempre estão munidos de informações precisas
+          para orientar nossos clientes na hora da contratação de um produto que
+          realmente se enquadre em suas necessidades. Através do nosso site você
+          consegue acessar todos os seguros que trabalhamos e entrar em contato
+          conosco para tirar dúvidas, pedir informações e realizar sua cotação.
+        </p>
+      </div>
+      <div>
+        <article class="card-ceo">
+          <div class="thumb">
+            <img src="./assets/images/paginaprincipal/CEO.jpeg" alt="CEO" />
+          </div>
+          <div class="infos">
+            <h2 class="title">CEO</h2>
+            <h2 class="date">José Luiz Lima Martins</h2>
+            <p class="txt">
+              Oriundo do mercado financeiro com passagem pelos principais grupos
+              econômicos. Hoje trabalho focado em planejamento financeiro e
+              proteção patrimonial baseado em ativos securitários.
             </p>
-        </div>
-        <div>
-            <article class="card-ceo">
-                <div class="thumb">
-                    <img src="./assets/images/paginaprincipal/CEO.jpeg" alt="CEO" />
-                </div>
-                <div class="infos">
-                    <h2 class="title">CEO</h2>
-                    <h2 class="date">José Luiz Lima Martins</h2>
-                    <p class="txt">
-                        Oriundo do mercado financeiro com passagem pelos principais grupos econômicos. Hoje trabalho
-                        focado em planejamento financeiro e proteção patrimonial baseado em ativos
-                        securitários.
-                    </p>
-                </div>
-            </article>
-        </div>
+          </div>
+        </article>
+      </div>
     </section>
     <section>
-        <div class="align-partners" id="parceiros">
-            <h3>Nossos parceiros</h3>
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"
-                space-between="30" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
-                <swiper-slide>
-                    <div class="card-swipper">
-                        <img src="./assets/images/parceiros/sulAmerica.png" alt="SulAmerica">
-                    </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div class="card-swipper">
-                        <img src="./assets/images/parceiros/portoSeguro.jpg" alt="PortoSeguro">
-                    </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div class="card-swipper">
-                        <img src="./assets/images/parceiros/bradescoSaude.png" alt="BradescoSaude">
-                    </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div class="card-swipper">
-                        <img src="./assets/images/parceiros/amil.png" alt="Amil">
-                    </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div class="card-swipper">
-                        <img src="./assets/images/parceiros/libertySeguros.jpg" alt="LibertySeguros">
-                    </div>
-                </swiper-slide>
-                <swiper-slide>
-                    <div class="card-swipper">
-                        <img src="./assets/images/parceiros/HDISeguros.jpg" alt="HDISeguros">
-                    </div>
-                </swiper-slide>
-            </swiper-container>
-        </div>
+      <div class="align-partners" id="parceiros">
+        <h3>Nossos parceiros</h3>
+        <swiper-container
+          class="mySwiper"
+          pagination="true"
+          pagination-clickable="true"
+          navigation="true"
+          space-between="30"
+          centered-slides="true"
+          autoplay-delay="2500"
+          autoplay-disable-on-interaction="false"
+        >
+          <swiper-slide>
+            <div class="card-swipper">
+              <img
+                src="./assets/images/parceiros/sulAmerica.png"
+                alt="SulAmerica"
+              />
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="card-swipper">
+              <img
+                src="./assets/images/parceiros/portoSeguro.jpg"
+                alt="PortoSeguro"
+              />
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="card-swipper">
+              <img
+                src="./assets/images/parceiros/bradescoSaude.png"
+                alt="BradescoSaude"
+              />
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="card-swipper">
+              <img src="./assets/images/parceiros/amil.png" alt="Amil" />
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="card-swipper">
+              <img
+                src="./assets/images/parceiros/libertySeguros.jpg"
+                alt="LibertySeguros"
+              />
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="card-swipper">
+              <img
+                src="./assets/images/parceiros/HDISeguros.jpg"
+                alt="HDISeguros"
+              />
+            </div>
+          </swiper-slide>
+        </swiper-container>
+      </div>
     </section>
     <footer class="fim">
-        <div class="contact" id="contatos"> <img class="afacil-logo" src="./assets/images/logoEmpresa.png"
-                alt="afacil-logo" />
-            <h5>Entre em contato </h5>
-            <div class="celular">
-                <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
-                <h4>(51) 98322-9357 </h4>
-            </div>
-            <div class="email">
-                <i class="fa-regular fa-envelope fa-2x"></i>
-                <h4>contato.afacil@gmail.com </h4>
-            </div>
-            <div class="endereco">
-                <i class="fa-solid fa-location-dot fa-2x"></i>
-                <h4>Av. Vicente Monteggia, 926, 2 Andar, Porto Alegre, RS</h4>
-            </div>
-            <div>
-                <h6>Conecte-se conosco</h6>
-                <div class="logos">
-                    <nav class="btn_social">
-                        <ul>
-                            <li><a href="https://www.facebook.com/profile.php?id=100069816220448&mibextid=LQQJ4d"
-                                    target="_blank" title="facebook"><i class="fa-brands fa-facebook fa-1x"></i></a>
-                            </li>
-                            <li><a href="https://api.instagram.com/afacilseguros_?igshid=YmMyMTA2M2Y=" target="_blank"
-                                    title="instagram"><i class="fa-brands fa-instagram fa-1x"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+      <div class="contact" id="contatos">
+        <img
+          class="afacil-logo"
+          src="./assets/images/logoEmpresa.png"
+          alt="afacil-logo"
+        />
+        <h5>Entre em contato</h5>
+        <div class="celular">
+          <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+          <h4>(51) 98322-9357</h4>
         </div>
-        <div class="copy">
-            <a>&copy; 2023</a>
+        <div class="email">
+          <i class="fa-regular fa-envelope fa-2x"></i>
+          <h4>contato.afacil@gmail.com</h4>
         </div>
+        <div class="endereco">
+          <i class="fa-solid fa-location-dot fa-2x"></i>
+          <h4>Av. Vicente Monteggia, 926, 2 Andar, Porto Alegre, RS</h4>
+        </div>
+        <div>
+          <h6>Conecte-se conosco</h6>
+          <div class="logos">
+            <nav class="btn_social">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100069816220448&mibextid=LQQJ4d"
+                    target="_blank"
+                    title="facebook"
+                    ><i class="fa-brands fa-facebook fa-1x"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://api.instagram.com/afacilseguros_?igshid=YmMyMTA2M2Y="
+                    target="_blank"
+                    title="instagram"
+                    ><i class="fa-brands fa-instagram fa-1x"></i
+                  ></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="copy">
+        <a>&copy; 2023</a>
+      </div>
     </footer>
-    <a href="https://api.whatsapp.com/send?phone=5551983229357" class="bt-wpp" target="_blank">
-        <i class="fa fa-whatsapp"></i>
+    <a
+      href="https://api.whatsapp.com/send?phone=5551983229357"
+      class="bt-wpp"
+      target="_blank"
+    >
+      <i class="fa fa-whatsapp"></i>
     </a>
-</body>
-
+  </body>
 </html>
