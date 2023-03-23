@@ -1,134 +1,212 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <script type="text/javascript" src="../../index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <link
+      rel="shortcut icon"
+      href="../../assets/images/logoEmpresa.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/17c859c741.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Seguro Moto</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" type="text/css" href="../style.css" />
-  <script type="text/javascript" src="../../index.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
-  <link rel="shortcut icon" href="../../assets/images/logoEmpresa.png" type="image/x-icon" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-  <script src="https://kit.fontawesome.com/17c859c741.js" crossorigin="anonymous"></script>
-  <title>Seguro Moto</title>
-</head>
-
-<body>
-  <header class="header">
-    <img class="logo" src="../../assets/images/logoEmpresa.png" alt="LogoEmpresa" />
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul class="menu">
-      <li class="dropdown">
-        <a class="dropbtn">Seguros<img class="iconDrop" src="../../assets/svg/chevron-down-solid.svg" /></a>
-        <div class="dropdown-content">
-          <a href="../segurobike/index.html">Seguro Bike</a>
-          <a href="../seguroauto/index.html">Seguro Automóvel</a>
-          <a href="../seguromoto/index.html">Seguro Moto</a>
-          <a href="../seguroviagem/index.html">Seguro Viagem</a>
-          <a href="../segurovida/index.html">Seguro de Vida</a>
-          <a href="../seguroresidencia/index.html">Seguro Residência</a>
-          <a href="../seguroresponsabilidadevicil/index.html">Seguro Responsabilidade Civil Profissional</a>
-          <a href="../seguropet/index.html">Seguro Pet</a>
+  <body>
+    <header class="header">
+      <img
+        class="logo"
+        src="../../assets/images/logoEmpresa.png"
+        alt="LogoEmpresa"
+      />
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li class="dropdown">
+          <a class="dropbtn"
+            >Seguros<img
+              class="iconDrop"
+              src="../../assets/svg/chevron-down-solid.svg"
+          /></a>
+          <div class="dropdown-content">
+            <a href="../segurobike/index.html">Seguro Bike</a>
+            <a href="../seguroauto/index.html">Seguro Automóvel</a>
+            <a href="../segurocelular/index.html">Seguro Celular</a>
+            <a href="../seguroviagem/index.html">Seguro Viagem</a>
+            <a href="../segurovida/index.html">Seguro de Vida</a>
+            <a href="../seguroresidencia/index.html">Seguro Residência</a>
+            <a href="../seguroresponsabilidadevicil/index.html"
+              >Seguro Responsabilidade Civil Profissional</a
+            >
+            <a href="../seguropet/index.html">Seguro Pet</a>
+          </div>
+        </li>
+        <li><a href="../../index.html">Home</a></li>
+      </ul>
+    </header>
+    <section class="section-banner">
+      <div>
+        <img
+          class="banner"
+          src="../../assets/images/paginaseguros/seguromoto/bannerseguromoto.png"
+          alt="bannerpag"
+        />
+      </div>
+    </section>
+    <section>
+      <div class="coberturas">
+        <h1>Coberturas Básicas</h1>
+        <h2>
+          Para personalizar suas coberturas e ter coberturas adicionais entre em
+          contato conosco
+        </h2>
+        <div class="card-coberturas">
+          <swiper-container
+            class="mySwiper"
+            pagination="true"
+            pagination-clickable="true"
+            navigation="true"
+            autoplay-delay="2600"
+            autoplay-disable-on-interaction="false"
+            slides-per-view="2"
+          >
+            <swiper-slide>
+              <div class="card-swipper">
+                <img
+                  src="../../assets/images/paginaseguros/seguromoto/swipper/acessório.png"
+                  alt="acessório"
+                />
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card-swipper">
+                <img
+                  src="../../assets/images/paginaseguros/seguromoto/swipper/danosaterceiros.png"
+                  alt="danosaterceiros"
+                />
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card-swipper">
+                <img
+                  src="../../assets/images/paginaseguros/seguromoto/swipper/incendio.png"
+                  alt="incendio"
+                />
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="card-swipper">
+                <img
+                  src="../../assets/images/paginaseguros/seguromoto/swipper/total.png"
+                  alt="total"
+                />
+              </div>
+            </swiper-slide>
+          </swiper-container>
         </div>
-      </li>
-      <li><a href="../../index.html">Home</a></li>
-    </ul>
-  </header>
-  <section class="section-banner">
+      </div>
+    </section>
+    <section class="vantagens">
+      <h3>Por que ter um seguro moto?</h3>
+      <div class="vantagens-cards">
+        <div>
+          <p class="card-vantagens">
+            Se você possui uma moto, sabe que ela é uma parte importante da sua
+            vida. Ela é um meio de transporte eficiente, rápido e econômico. No
+            entanto, assim como qualquer outro veículo, uma moto está sujeita a
+            acidentes e problemas mecânicos. Um seguro de moto pode te ajudar a
+            lidar com essas situações de forma mais tranquila e segura. Com um
+            seguro de moto, você tem a garantia de que será coberto em caso de
+            acidentes, roubos, furtos e outros imprevistos. Além disso, algumas
+            seguradoras também oferecem serviços de assistência 24 horas, que
+            podem ajudar você em situações de emergência, como problemas
+            mecânicos ou falta de combustível.
+          </p>
+        </div>
+        <div>
+          <p class="card-vantagens">
+            Além de proteger você e sua moto em casos de acidentes e
+            imprevistos, um seguro de moto também pode ajudar você a economizar
+            dinheiro a longo prazo. Imagine que você sofra um acidente e precise
+            arcar com todas as despesas do próprio bolso. Os custos podem ser
+            muito altos, incluindo gastos com reparos na moto, despesas médicas
+            e hospitalares, e possíveis indenizações para terceiros envolvidos
+            no acidente. Com um seguro de moto, você paga um valor mensal mais
+            acessível e, em caso de acidentes, as despesas são cobertas pela
+            seguradora. Isso significa que você não precisa se preocupar em
+            arcar com os altos custos de forma imediata.
+          </p>
+        </div>
+        <div>
+          <p class="card-vantagens">
+            Não é segredo que o trânsito nas grandes cidades pode ser caótico e
+            perigoso. Em uma moto, você está ainda mais vulnerável a acidentes e
+            roubos. Ter um seguro de moto pode ajudar a diminuir os riscos e
+            aumentar a sua segurança. Com um seguro de moto, você tem a
+            tranquilidade de saber que estará protegido em caso de acidentes e
+            roubos. Isso pode te ajudar a andar mais relaxado e concentrado no
+            trânsito, o que pode diminuir as chances de envolvimento em
+            acidentes. Além disso, algumas seguradoras oferecem serviços de
+            rastreamento de veículos, o que pode ajudar a localizar sua moto em
+            caso de roubo.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+  <footer class="fim">
     <div>
-      <img class="banner" src="../../assets/images/paginaseguros/seguromoto/bannerseguromoto.png" alt="bannerpag" />
-    </div>
-  </section>
-  <section>
-    <div class="coberturas">
-      <h1>Coberturas Básicas</h1>
-      <h2>
-        Para personalizar suas coberturas e ter coberturas adicionais entre em
-        contato conosco
-      </h2>
-      <div class="card-coberturas">
-        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"
-          autoplay-delay="2600" autoplay-disable-on-interaction="false" slides-per-view="1">
-          <swiper-slide>
-            <div class="card-swipper">
-              <img src="../../assets/images/paginaseguros/seguromoto/swipper/acessório.png" alt="acessório" />
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="card-swipper">
-              <img src="../../assets/images/paginaseguros/seguromoto/swipper/danosaterceiros.png"
-                alt="danosaterceiros" />
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="card-swipper">
-              <img src="../../assets/images/paginaseguros/seguromoto/swipper/incendio.png" alt="incendio" />
-            </div>
-          </swiper-slide>
-          <swiper-slide>
-            <div class="card-swipper">
-              <img src="../../assets/images/paginaseguros/seguromoto/swipper/total.png" alt="total" />
-            </div>
-          </swiper-slide>
-        </swiper-container>
+      <img
+        class="logo-footer"
+        src="../../assets/images/logoEmpresa.png"
+        alt="afacil-logo"
+      />
+      <h4>Conecte-se conosco</h4>
+      <div class="logos">
+        <nav class="btn_social">
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/profile.php?id=100069816220448&mibextid=LQQJ4d"
+                target="_blank"
+                title="facebook"
+                ><i class="fa-brands fa-facebook fa-1x"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://api.instagram.com/afacilseguros_?igshid=YmMyMTA2M2Y="
+                target="_blank"
+                title="instagram"
+                ><i class="fa-brands fa-instagram fa-1x"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
-  </section>
-  <section class="vantagens">
-    <h3>Por que ter um seguro moto?</h3>
-    <div class="vantagens-cards">
-      <div>
-        <p class="card-vantagens">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, pariatur labore molestias laudantium voluptate
-          eveniet ea saepe, dignissimos iusto nemo dolor doloremque eum? Nobis praesentium voluptate, in reprehenderit
-          accusantium necessitatibus.
-          </a>
-        </p>
-      </div>
-      <div>
-        <p class="card-vantagens">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio est soluta quisquam natus corrupti non, porro
-          adipisci! Ipsa, quidem qui laborum quibusdam exercitationem asperiores harum aperiam officiis id debitis
-          voluptatem!
-        </p>
-      </div>
-      <div>
-        <p class="card-vantagens">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dicta est error repellendus sint ipsum
-          neque nesciunt doloribus, placeat praesentium! Doloribus eaque quos cumque repellendus molestiae reiciendis
-          libero! Aliquid, a!
-        </p>
-      </div>
+    <div class="copy">
+      <a>&copy; 2023</a>
     </div>
-  </section>
-</body>
-<footer class="fim">
-  <div>
-    <img class="logo-footer" src="../../assets/images/logoEmpresa.png" alt="afacil-logo" />
-    <h4>Conecte-se conosco</h4>
-    <div class="logos">
-      <nav class="btn_social">
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/profile.php?id=100069816220448&mibextid=LQQJ4d" target="_blank"
-              title="facebook"><i class="fa-brands fa-facebook fa-1x"></i></a>
-          </li>
-          <li>
-            <a href="https://api.instagram.com/afacilseguros_?igshid=YmMyMTA2M2Y=" target="_blank" title="instagram"><i
-                class="fa-brands fa-instagram fa-1x"></i></a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-  <div class="copy">
-    <a>&copy; 2023</a>
-  </div>
-</footer>
-<a href="https://api.whatsapp.com/send?phone=5551983229357" class="bt-wpp" target="_blank">
-  <i class="fa fa-whatsapp"></i>
-</a>
-
+  </footer>
+  <a
+    href="https://api.whatsapp.com/send?phone=5551983229357"
+    class="bt-wpp"
+    target="_blank"
+  >
+    <i class="fa fa-whatsapp"></i>
+  </a>
 </html>
